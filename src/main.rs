@@ -2,7 +2,7 @@ use clap::Parser;
 use clio::Input;
 use rand::seq::SliceRandom;
 
-/// Simple program to query a recipe bank file
+/// Simple program to get a random element from a csv file or stdin
 #[derive(Parser)]
 struct Args {
     /// File to read from
